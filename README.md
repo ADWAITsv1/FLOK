@@ -1,3 +1,4 @@
+````markdown
 # 🌍 FLOK — Food Loss on Chain  
 **AI × Blockchain system for food waste redistribution**
 
@@ -42,3 +43,75 @@ pip install -r requirements.txt
 
 # 4️⃣ Run the Streamlit app
 streamlit run app.py --server.port 8501
+````
+
+Then open your browser at → **[http://localhost:8501](http://localhost:8501)**
+
+---
+
+## 📊 Screenshot (Real Demo)
+
+**Live Food Batch Monitoring & Blockchain Log Dashboard**
+
+![FLOK Dashboard](data/flok_dashboard.png)
+
+> *Figure: Real working interface showing live food batches, blockchain ledger, and reroute analytics.*
+
+---
+
+## 🧩 File Structure
+
+```
+FLOK/
+├── app.py                 # Main Streamlit app
+├── flok_blockchain.py     # Blockchain ledger logic
+├── blockchain_log.json    # Local ledger data
+├── logic/                 # Matching and rule-based analysis modules
+├── data/                  # Screenshot and sample datasets
+│   └── flok_dashboard.png
+├── requirements.txt
+├── .gitignore
+└── venv/                  # Local environment (ignored)
+```
+
+---
+
+## 🧠 Roadmap
+
+* [ ] Integrate ML model for expiry & demand prediction
+* [ ] Add PostgreSQL / Firebase backend support
+* [ ] Build FastAPI-based REST microservice layer
+* [ ] Deploy on Streamlit Cloud or Heroku
+* [ ] Add real-time LINE/Slack alert system
+
+---
+
+## 👨‍💻 Author
+
+**Adwait Sanjay Varekar**
+Musashino University — Department of Data Science
+📧 [cadadwait@gmail.com](mailto:cadadwait@gmail.com)
+🌐 [github.com/ADWAITsv1](https://github.com/ADWAITsv1)
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License** — see [LICENSE](./LICENSE).
+
+---
+
+## 🏷️ Repository Metadata
+
+**Description:**
+AI × Blockchain dashboard for sustainable food waste redistribution.
+Developed with Python and Streamlit, integrating data analytics and blockchain-style logging.
+
+**Keywords:**
+`streamlit` • `blockchain` • `ai` • `sustainability` • `data-science` • `food-waste` • `smart-city` • `fastapi-ready`
+
+```
+
+---
+
+
