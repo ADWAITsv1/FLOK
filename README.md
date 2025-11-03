@@ -1,4 +1,3 @@
-````markdown
 # 🌍 FLOK — Food Loss on Chain  
 **AI × Blockchain system for food waste redistribution**
 
